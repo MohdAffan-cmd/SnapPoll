@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Poll, Comment } from '../types'
+import type { Poll, Comment } from '../types'
 import { formatRemaining } from '../utils'
 
 export const PollView = () => {

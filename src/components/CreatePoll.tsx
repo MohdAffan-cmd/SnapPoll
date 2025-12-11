@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { FormOption, Poll } from '../types'
+import type { FormOption, Poll } from '../types'
 import { ONE_HOUR } from '../constants'
 import { createOption } from '../utils'
 

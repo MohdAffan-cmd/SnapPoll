@@ -3,7 +3,7 @@ import { Header } from './Header'
 import { Footer } from './Footer'
 import { Hero } from './Hero'
 import { Features } from './Features'
-import { Poll } from '../types'
+import type { Poll } from '../types'
 import { formatRemaining } from '../utils'
 
 export const Home = () => {
